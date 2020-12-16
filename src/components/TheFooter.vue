@@ -12,7 +12,7 @@
 
             <ul class="list-unstyled">
               <li><i class="fa fa-address-card"></i><a href="#">St Andrews Square, Central Edinburgh, Edinburgh. EH2 , United Kingdom</a></li>
-              <li><i class="fa fa-envelope"></i><a href="#">support@cryptanci.com</a></li>
+              <li class="e-mail"><i class="fa fa-envelope"></i><a href="#">support@cryptanci.com</a></li>
             </ul>
 
           </div>
@@ -70,4 +70,9 @@
     margin: 0 auto;
   }
 }
+
+.e-mail a {
+  text-transform: none !important;
+}
+
 </style>
